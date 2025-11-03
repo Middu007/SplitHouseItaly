@@ -268,36 +268,27 @@
             font-weight: 700;
         }
 
-        .btn {
-            display: inline-block;
-            padding: var(--space-12) var(--space-24);
-            background-color: var(--color-primary) !important;
-            color: white !important;
-            border: none;
-            border-radius: var(--radius-base);
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            width: 100%;
-            text-align: center;
-            opacity: 1 !important;
-            visibility: visible !important;
-        }
+        ..btn {
+    display: block;
+    padding: var(--space-12) var(--space-24);
+    background-color: #dc2626;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--radius-base);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    opacity: 1;
+    visibility: visible;
+}
 
-        .btn:hover {
-            background-color: var(--color-primary-hover) !important;
-            opacity: 1 !important;
-        }
-
-        .btn-secondary {
-            background-color: var(--color-secondary);
-            color: var(--color-text);
-        }
-
-        .btn-secondary:hover {
-            background-color: rgba(var(--color-brown-600-rgb), 0.2);
-        }
+.btn:hover { 
+    background-color: #b91c1c;
+}
 
         .sidebar {
             position: sticky;
